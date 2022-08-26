@@ -12,6 +12,7 @@ ports:
 tasks:
   - init: >
       gem install rails &&
+      gem install rake &&
       yarn install &&
       rake db:create
     command: >
